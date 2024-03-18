@@ -1,0 +1,16 @@
+[26-Sep-2023 13:47:53 UTC] PHP Warning:  Undefined variable $common in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 1
+[26-Sep-2023 13:47:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 1
+[26-Sep-2023 13:47:53 UTC] PHP Warning:  Undefined variable $common in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 2
+[26-Sep-2023 13:47:53 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 2
+[26-Sep-2023 13:47:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 12
+[26-Sep-2023 23:43:59 UTC] PHP Warning:  Undefined variable $common in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 1
+[26-Sep-2023 23:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 1
+[26-Sep-2023 23:43:59 UTC] PHP Warning:  Undefined variable $common in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 2
+[26-Sep-2023 23:43:59 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 2
+[26-Sep-2023 23:43:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/savingssites/public_html/subdomainBusiness/assets/images/peekaboo_auction_create.php on line 12

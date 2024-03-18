@@ -1,0 +1,20 @@
+{
+    "name": "Naples",
+    "short_name": "naples",
+    "description": "You Save & Your Favorite Nonprofit Also Benefits!",
+    "background_color": "#96735f",
+    "theme_color": "#96735f",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/assets/SavingsUpload/zone_logo/672/1668532241SWFLSS-sml-logo.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/SavingsUpload/zone_logo/672/1668532241SWFLSS-sml-logo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+        ]
+}

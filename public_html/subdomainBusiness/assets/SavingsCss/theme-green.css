@@ -1,0 +1,204 @@
+
+.list_btn_login {
+    background: #5f9900;
+}
+a.cus-btn-home i.fa.fa-home {
+    color: #5f9900 !important;
+}
+a.nivo-prevNav i.fa.fa-angle-left{
+    color: #5f9900 !important;
+}
+.em-nivo-slider-wrapper .nivo-directionNav a{
+    border: 1px solid #5f9900 !important;
+}
+.viewFilters a.theme-btn.active {
+    background-color: #5f9900;
+    color: #fff;
+}
+.bv_header_breadcrumb h1 {
+    background: #5f9900 !important;
+    color: #fff !important;
+}
+.header-list-items {
+    background: #5f9900 !important ;
+}
+.section-full-div{
+    background: #5f9900 !important ;
+}
+.text-primary {
+    color: #5f9900 !important;
+    padding: 0 5px;
+}
+.text-primarylight {
+    color: #BFD699 !important;
+}
+
+.bv_header_breadcrumb {
+    outline: 2px solid #5f9900;
+}
+
+.sortenoption{
+    background: #5f9900 !important;
+    color:#fff !important;    
+}
+
+a.favbus.btn.top-btn.clicksnapsignup ,a.btn.dropdown-toggle.top-btn{
+    color: #5f9900;
+}
+.login_cart_icon i.fa.fa-shopping-cart {
+    color: #5f9900;
+}
+
+#menuToggle span{
+background: #5f9900;
+}
+
+.video_modal button {
+    border: 1px solid #5f9900;
+    color: #5f9900;
+}
+.center_text_no_profit h2 span{
+    color: #5f9900;
+}
+.center_text_no_profit i {
+    background: #5f9900;
+}
+
+.search-wrapper .dropdown.sortby a {
+    color: #5f9900 ;
+}
+
+li.active {
+    background: #5f9900;
+}
+
+.pagination a {
+    color: #5f9900;
+}
+a.btn-link.cus-top-pad,a#dropdownMenuButton13,button#themeswitcher {
+    border: 1px solid #5f9900;
+    color: #5f9900 ;
+}
+
+li.sign_out_directory {
+    border: 1px solid #5f9900;
+    color: #5f9900;
+}
+.video_modal .btn {
+    background: #5f9900;
+}
+
+a.with-icon.btn-link.btn.btn-info.btn-lg:hover {
+    border: 1px solid #5f9900;
+    color: #5f9900 !important;
+}
+.modal-header {
+    border-bottom-color: #5f9900 !important;
+    background-color: #5f9900 !important; 
+}
+i.fa.fa-heart.menu-icon.red {
+    color: red;
+}
+#menuToggle span,#menuToggle-mobile span {
+   background: #5f9900;
+}
+.center_text_no_profit h2 span {
+    color: #5f9900;
+}
+a.btn-link.cus-top-pad {
+    border: 1px solid #5f9900;
+    color: #5f9900 ;
+}
+a.search_cont_but.form-control.businessNameSearch {
+    background: #5f9900;
+    color: #fff;
+}
+#search_input_box input {
+    border: 1px solid #5f9900;
+}
+input.button.btn.login-submit {
+    background: #5f9900;
+}
+button.list_btn_orgs.btn-free {
+
+    background: #5f9900 !important;
+
+}
+.tab-block .tab-mnu .active {
+    background: #5f9900 !important;
+}
+select.miles_count {
+    border: 1px solid #5f9900;
+    border-radius: 4px;
+}
+#audiomodal .modal-content {
+    background: #5f9900;
+}
+.themecolor {
+    color: #5f9900 !important;
+}
+#menu-bar{
+  box-shadow: 0 0 16px 0px #5f9900 !important;  
+}
+.tooltip {
+background: #5f9900;
+}
+.boxex {
+    border: 3px solid #5f9900;
+}
+.colorchange1 {
+    color: #5f9900;
+}
+.nav-pills a.nav-link {
+    background-color: #5f9900 !important;
+}
+.round {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #fff 50%),
+    linear-gradient(135deg, #fff 50%, transparent 50%),
+    radial-gradient(#5f9900 70%, transparent 72%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+.round1 {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #fff 50%),
+    linear-gradient(135deg, #fff 50%, transparent 50%),
+    radial-gradient(#5f9900 70%, transparent 72%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(99.5% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.7em 1.7em;
+  background-repeat: no-repeat;
+}
+li.dropdown.sortby.backgroundfff.section-full-div .round1 {
+    background-image: linear-gradient(45deg, transparent 50%, #fff 50%),
+    linear-gradient(135deg, #fff 50%, transparent 50%),
+    radial-gradient(#5f9900 70%, transparent 72%);
+    background-position: calc(100% - 20px) calc(1em + 0px),
+    calc(100% - 15px) calc(1em + 0px),
+    calc(100.0% - 0.5em) 0.2em;
+    background-size: 5px 5px,
+    5px 5px,
+    1.7em 1.7em;
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px){
+.round1 {
+    background-image: linear-gradient(45deg, transparent 50%, #fff 50%), linear-gradient(135deg, #fff 50%, transparent 50%), radial-gradient(#5f9900 70%, transparent 72%);
+    background-position: calc(100% - 20px) calc(1em + 0px), calc(100% - 15px) calc(1em + 0px), calc(100.5% - 0.5em) 0.2em;
+    background-size: 5px 5px, 5px 5px, 1.7em 1.7em;
+    background-repeat: no-repeat;
+}
+}

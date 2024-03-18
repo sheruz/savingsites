@@ -1,0 +1,49 @@
+[10-Dec-2020 14:56:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/savingssites/public_html/assets/scripts/adlist.php on line 1
+[10-Dec-2020 14:56:04 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/savingssites/public_html/assets/scripts/adlist.php on line 63
+[04-Jan-2021 17:22:52 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/savingssites/public_html/assets/scripts/server_processing.php on line 251
+[06-Jan-2021 11:16:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/savingssites/public_html/assets/scripts/adlist.php on line 1
+[06-Jan-2021 11:16:02 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/savingssites/public_html/assets/scripts/adlist.php on line 63
+[27-Jan-2021 22:22:53 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/savingssites/public_html/assets/scripts/server_processing.php on line 251
+[16-Apr-2021 11:42:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/savingssites/public_html/assets/scripts/adlist.php on line 1
+[16-Apr-2021 11:42:45 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/savingssites/public_html/assets/scripts/adlist.php on line 63
+[30-Apr-2021 15:04:32 UTC] PHP Warning:  mysql_query() expects parameter 2 to be resource, null given in /home/savingssites/public_html/assets/scripts/server_processing.php on line 251
+[11-Jun-2021 20:37:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/savingssites/public_html/assets/scripts/adlist.php on line 1
+[11-Jun-2021 20:37:54 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/savingssites/public_html/assets/scripts/adlist.php on line 63
+[03-Jul-2021 02:48:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/savingssites/public_html/assets/scripts/adlist.php on line 1
+[03-Jul-2021 02:48:17 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/savingssites/public_html/assets/scripts/adlist.php on line 63
+[04-Aug-2021 01:43:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/savingssites/public_html/assets/scripts/adlist.php on line 1
+[04-Aug-2021 01:43:58 UTC] PHP Fatal error:  Call to undefined function base_url() in /home/savingssites/public_html/assets/scripts/adlist.php on line 63
+[26-Sep-2023 13:48:20 UTC] PHP Warning:  Undefined variable $adlist in /home/savingssites/public_html/subdomainBusiness/assets/scripts/adlist.php on line 1
+[26-Sep-2023 13:48:20 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/savingssites/public_html/subdomainBusiness/assets/scripts/adlist.php on line 1
+[26-Sep-2023 13:48:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/savingssites/public_html/subdomainBusiness/assets/scripts/adlist.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/savingssites/public_html/subdomainBusiness/assets/scripts/adlist.php on line 49
+[26-Sep-2023 13:48:25 UTC] PHP Warning:  Undefined array key "sSearch" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 86
+[26-Sep-2023 13:48:25 UTC] PHP Warning:  Undefined array key "bSearchable_0" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 13:48:25 UTC] PHP Warning:  Undefined array key "bSearchable_1" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 13:48:25 UTC] PHP Warning:  Undefined array key "bSearchable_2" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 13:48:25 UTC] PHP Warning:  Undefined array key "bSearchable_3" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 13:48:25 UTC] PHP Warning:  Undefined array key "bSearchable_4" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 13:48:25 UTC] PHP Warning:  Undefined variable $sOrder in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 123
+[26-Sep-2023 13:48:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php:126
+Stack trace:
+#0 {main}
+  thrown in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 126
+[26-Sep-2023 23:44:08 UTC] PHP Warning:  Undefined variable $adlist in /home/savingssites/public_html/subdomainBusiness/assets/scripts/adlist.php on line 1
+[26-Sep-2023 23:44:08 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /home/savingssites/public_html/subdomainBusiness/assets/scripts/adlist.php on line 1
+[26-Sep-2023 23:44:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function base_url() in /home/savingssites/public_html/subdomainBusiness/assets/scripts/adlist.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/savingssites/public_html/subdomainBusiness/assets/scripts/adlist.php on line 49
+[26-Sep-2023 23:44:12 UTC] PHP Warning:  Undefined array key "sSearch" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 86
+[26-Sep-2023 23:44:12 UTC] PHP Warning:  Undefined array key "bSearchable_0" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 23:44:12 UTC] PHP Warning:  Undefined array key "bSearchable_1" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 23:44:12 UTC] PHP Warning:  Undefined array key "bSearchable_2" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 23:44:12 UTC] PHP Warning:  Undefined array key "bSearchable_3" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 23:44:12 UTC] PHP Warning:  Undefined array key "bSearchable_4" in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 100
+[26-Sep-2023 23:44:12 UTC] PHP Warning:  Undefined variable $sOrder in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 123
+[26-Sep-2023 23:44:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php:126
+Stack trace:
+#0 {main}
+  thrown in /home/savingssites/public_html/subdomainBusiness/assets/scripts/server_processing.php on line 126

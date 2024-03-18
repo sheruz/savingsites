@@ -1,0 +1,13 @@
+[25-Feb-2023 09:19:01 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in /home/savingssites/public_html/app/Config/Constants.php on line 97
+[25-Feb-2023 09:19:01 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/savingssites/public_html/vendor/codeigniter4/framework/system/HTTP/Exceptions/HTTPException.php on line 162
+[14-Mar-2023 04:48:17 UTC] PHP Fatal error:  Uncaught Symfony\Component\Console\Exception\RuntimeException: Unable to write output. in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/StreamOutput.php:79
+Stack trace:
+#0 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/Output.php(164): Symfony\Component\Console\Output\StreamOutput->doWrite('\n', true)
+#1 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/Output.php(132): Symfony\Component\Console\Output\Output->write(Array, true, 16)
+#2 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(641): Symfony\Component\Console\Output\Output->writeln('', 16)
+#3 phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Application.php(127): Symfony\Component\Console\Application->renderException(Object(Symfony\Component\Console\Exception\RuntimeException), Object(Symfony\Component\Console\Output\StreamOutput))
+#4 phar:///opt/cpanel/composer/bin/composer/src/Composer/Console/Application.php(131): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 phar:///opt/cpanel/composer/bin/composer/bin/composer(83): Composer\Console\Application->run()
+#6 /opt/cpanel/composer/bin/composer(29): require('phar:///opt/cpa...')
+#7 {main}
+  thrown in phar:///opt/cpanel/composer/bin/composer/vendor/symfony/console/Output/StreamOutput.php on line 79

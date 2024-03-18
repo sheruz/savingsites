@@ -1,0 +1,42 @@
+
+.scrap_login{ width: 100%; min-height: 100vh; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 15px; background-color: #ebebeb; }
+.scrap_login .wrapper{ padding: 40px; width: 560px; background: #fff; border-radius: 10px; position: relative;     box-shadow: 0px 4px 54px rgb(0 0 0 / 10%); }
+
+.scrap_login .wrapper .form-control{ width: 100%; position: relative; background-color: #fff; border: 1px solid #e6e6e6; border-radius: 2px; height: 46px;  }
+.scrap_login .wrapper h2{ text-align: center; margin-bottom: 30px;  text-transform: uppercase; font-weight: bold; }
+.scrap_login .wrapper input.btn{ min-width: 100%; height: 50px;  }
+
+.admin_ligin .wrap{ padding: 40px; width: 560px; background: #fff; border-radius: 0; position: relative; box-shadow: 0px 4px 54px rgb(0 0 0 / 10%); margin: 40px auto; border-top: 5px solid #007bff; }
+.admin_ligin .wrap a{ color: #203f96; text-decoration: none; font-size: 19px; line-height: 27px; margin-top: 13px; display: inline-block; }
+
+.zone_row{ width: 100%; min-height: 100vh; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; padding: 15px; background-color: #ebebeb; }
+.zone_row .craete_zone_col{ padding: 40px; width: 60%; background: #fff; border-radius: 0; position: relative; box-shadow: 0px 4px 54px rgb(0 0 0 / 10%); margin: 40px auto; border-top: 5px solid #007bff; }
+
+.zone_row .craete_zone_col .btn-success{ background-color: #007bff; border-color: #007bff; }
+.zone_row .craete_zone_col .btn-success:hover{ color: #fff !important; box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 49%) !important; background-color: #007bff !important; border-color: #007bff; }
+.zone_row .craete_zone_col .btn-success:focus{ color: #fff !important; box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 49%) !important; background-color: #007bff !important; border-color: #007bff; }
+.btn_zonezip{ background: #007bff; color: #fff; text-transform: capitalize;  height: 38px; border: none; padding: 0px 22px;}
+
+.zip_form input[type=text]{ border: 1px solid #e6e6e6; height: 38px; padding: 10px; }
+
+.zone_form input[type=text]{ width: 100% ;position: relative; background-color: #fff; border: 1px solid #e6e6e6; border-radius: 2px; height: 40px; }
+
+.zone_form{ border-bottom: 1px solid #dee2e6; padding-bottom: 16px; }
+.zip_form{ border-bottom: 1px solid #dee2e6; padding-bottom: 16px; }
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+.zip_form input[type=text]{ margin-bottom: 10px; }
+
+}
+
+@media (max-width: 767px){
+
+.admin_ligin .wrap{ width: auto; padding: 10px; }
+.admin_ligin .wrap a{ word-break: break-all; }
+.zone_row .craete_zone_col{ padding: 30px; width: 100%; }
+.zone_row .craete_zone_col .col-sm-6 form{ text-align: center !important; }
+.zip_form input[type=text]{ margin-bottom: 10px; }
+
+}

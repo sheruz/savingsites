@@ -1,0 +1,1 @@
+$(document).ready(function(){$(document).on({mouseenter:function(){$(this).find(".dc-mega-border").stop().animate({width:"100%"},{queue:!1,duration:0})},mouseleave:function(){$(this).find(".dc-mega-border").stop().animate({width:"0px"},{queue:!1,duration:300})}},"ul.mega-menu li a")});

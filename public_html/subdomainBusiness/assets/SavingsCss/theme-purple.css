@@ -1,0 +1,206 @@
+
+.list_btn_login {
+    background: #7b498f;
+}
+a.cus-btn-home i.fa.fa-home {
+    color: #7b498f !important;
+}
+a.nivo-prevNav i.fa.fa-angle-left {
+    color: #7b498f !important;
+}
+.em-nivo-slider-wrapper .nivo-directionNav a{
+    border: 1px solid #7b498f !important;
+}
+.viewFilters a.theme-btn.active {
+    background-color: #7b498f;
+    color: #fff;
+}
+.bv_header_breadcrumb h1 {
+    background: #7b498f !important;
+    color: #fff !important;
+}
+.header-list-items {
+    background: #7b498f !important ;
+}
+.section-full-div{
+    background: #7b498f !important ;
+}
+.text-primary {
+    color: #7b498f !important;
+    padding: 0 5px;
+}
+
+.text-primarylight {
+    color: #CAB6D2 !important;
+}
+
+.bv_header_breadcrumb {
+    outline: 2px solid #7b498f;
+}
+.sortenoption{
+    background: #7b498f !important;
+    color:#fff !important;    
+}
+
+a.favbus.btn.top-btn.clicksnapsignup ,a.btn.dropdown-toggle.top-btn{
+    color: #7b498f;
+}
+.login_cart_icon i.fa.fa-shopping-cart {
+    color: #7b498f;
+}
+
+#menuToggle span{
+background: #7b498f;
+}
+
+.video_modal button {
+    border: 1px solid #7b498f;
+    color: #7b498f;
+}
+
+.center_text_no_profit h2 span{
+    color: #7b498f;
+}
+.center_text_no_profit i {
+    background: #7b498f;
+}
+
+.search-wrapper .dropdown.sortby a {
+    color: #7b498f ;
+}
+
+li.active {
+    background: #7b498f;
+}
+.pagination a {
+    color: #7b498f;
+}
+a.btn-link.cus-top-pad,a#dropdownMenuButton13,button#themeswitcher {
+    border: 1px solid #7b498f;
+    color: #7b498f ;
+}
+
+
+li.sign_out_directory {
+    border: 1px solid #7b498f;
+    color: #7b498f;
+}
+.video_modal .btn {
+    background: #7b498f;
+}
+
+a.with-icon.btn-link.btn.btn-info.btn-lg:hover {
+    border: 1px solid #7b498f;
+    color: #fff !important;
+    background: #7b498f !important;
+}
+.modal-header {
+    border-bottom-color: #7b498f !important;
+    background-color: #7b498f !important; 
+}
+i.fa.fa-heart.menu-icon.red {
+    color: red;
+}
+#menuToggle span,#menuToggle-mobile span {
+   background: #7b498f;
+}
+.center_text_no_profit h2 span {
+    color: #7b498f;
+}
+a.btn-link.cus-top-pad {
+    border: 1px solid #7b498f;
+    color: #7b498f ;
+}
+a.search_cont_but.form-control.businessNameSearch {
+    background: #7b498f;
+    color: #fff;
+}
+#search_input_box input {
+    border: 1px solid #7b498f;
+}
+input.button.btn.login-submit {
+    background: #7b498f;
+}
+button.list_btn_orgs.btn-free {
+
+    background: #7b498f !important;
+
+}
+.tab-block .tab-mnu .active {
+    background: #7b498f !important;
+}
+select.miles_count {
+    border: 1px solid #7b498f;
+    border-radius: 4px;
+}
+#audiomodal .modal-content {
+    background: #7b498f;
+}
+.themecolor {
+    color: #7b498f !important;
+}
+#menu-bar{
+  box-shadow: 0 0 16px 0px #7b498f !important;  
+}
+.tooltip {
+background: #7b498f;
+}
+.boxex {
+    border: 3px solid #7b498f;
+}
+.colorchange1 {
+    color: #7b498f;
+}
+.nav-pills a.nav-link {
+    background-color: #7b498f !important;
+}
+.round {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #fff 50%),
+    linear-gradient(135deg, #fff 50%, transparent 50%),
+    radial-gradient(#7b498f 70%, transparent 72%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.5em 1.5em;
+  background-repeat: no-repeat;
+}
+.round1 {
+  background-image:
+    linear-gradient(45deg, transparent 50%, #fff 50%),
+    linear-gradient(135deg, #fff 50%, transparent 50%),
+    radial-gradient(#7b498f 70%, transparent 72%);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(99.5% - .5em) .5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1.7em 1.7em;
+  background-repeat: no-repeat;
+}
+li.dropdown.sortby.backgroundfff.section-full-div .round1 {
+    background-image: linear-gradient(45deg, transparent 50%, #fff 50%),
+    linear-gradient(135deg, #fff 50%, transparent 50%),
+    radial-gradient(#7b498f 70%, transparent 72%);
+    background-position: calc(100% - 20px) calc(1em + 0px),
+    calc(100% - 15px) calc(1em + 0px),
+    calc(100.0% - 0.5em) 0.2em;
+    background-size: 5px 5px,
+    5px 5px,
+    1.7em 1.7em;
+    background-repeat: no-repeat;
+}
+@media (max-width: 767px){
+.round1 {
+    background-image: linear-gradient(45deg, transparent 50%, #fff 50%), linear-gradient(135deg, #fff 50%, transparent 50%), radial-gradient(#7b498f 70%, transparent 72%);
+    background-position: calc(100% - 20px) calc(1em + 0px), calc(100% - 15px) calc(1em + 0px), calc(100.5% - 0.5em) 0.2em;
+    background-size: 5px 5px, 5px 5px, 1.7em 1.7em;
+    background-repeat: no-repeat;
+}
+}

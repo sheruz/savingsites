@@ -1,0 +1,292 @@
+.rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, 
+.rd-navbar-fixed .rd-nav-item.focus .rd-nav-link, 
+.rd-navbar-fixed .rd-nav-item.active .rd-nav-link, 
+.rd-navbar-fixed .rd-nav-item.opened .rd-nav-link, 
+header, #product_list .gallery a, 
+.extrapadb.new2.theme-bg, 
+.ui-to-top,.listtype #listbtn.active, 
+.listtype #gridbtn.active, 
+header .header-hidden, 
+.rd-navbar-static.rd-navbar--is-stuck, 
+.rd-navbar-static.rd-navbar--is-clone,
+a.btn-hh-trigger,
+.swiper-button-prev:hover::after, 
+.swiper-button-next:hover::after,
+.block-bg-theme,
+.button-default-outline-2.button-ujarak::before,
+.btn-link:hover,.announceWrapper a.title:hover, .announceWrapper .sortable-dragging a.title, .announceWrapper span.handle:hover + a.title, .themeBtns{
+    background: #01519A;
+    color:#fff;
+}
+.post-aria-list-social .icon:hover, 
+.sub-banner .fa,
+a, a:focus, a:active,
+.benefits.tabs-horizontal.tabs-corporate .nav-link:hover {
+    color: #01519A;
+}
+.benefits.tabs-horizontal.tabs-corporate .nav-link.active, .benefits.tabs-horizontal.tabs-corporate .nav-link.active:hover {
+    color: #ffffff;background: #01519A;
+}
+.mission, .mission:after, header .header-hidden {
+    border-color: #01519A;
+}
+.text-primary, .themeBtns a.text-primary, .themeBtns a.text-primary:focus,.themeBtns a.text-primary:hover{
+    color: #01519A !important;
+}
+.btn-primary, .btn-primary:active, 
+.button-default-outline-2:hover, 
+.button-default-outline-2:active,
+.btn-primary:focus {
+    color: #ffffff;
+    background: #01519A;
+    border-color: #01519A;
+}
+.social-animated i.icon::after {
+    background: #005eab;
+}
+.h1benefits{
+    color: #005eab;
+}
+.boxex {
+    border: 3px solid #005eab;
+}
+/*Add This*/
+.social-animated i.icon::after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    background: #005eab;
+    transform: scale(0);
+    transform-origin: 50% 0;
+    transition: all .3s ease;
+    z-index: -1;
+}
+
+.top-header .quicklinks-social.post-aria-list-social .icon:hover {color: #fff;background: #005eab;}
+.top-header .quicklinks-social.post-aria-list-social .icon {color: #005eab;}
+.social-animated li a i.icon{color: #005eab;}
+.social-animated li a i.icon:hover {color: #fff;background: #005eab;}
+.top-header .post-aria-list-social .icon:after {background: #005eab;}
+a.contact-us {background: #005eab;border: 1px solid #005eab;}
+.top-header .quicklinks-social.post-aria-list-social .icon, .announceWrapper a.title{color:#005eab;}
+a.contact-us:hover{background: #fff;border: 1px solid #005eab;color: #005eab;}
+.tabs-vertical.tabs-line .nav-link.active,.tabs-vertical.tabs-line .nav-link:hover{color: #ffffff;background: #005eab;}
+.tabs-vertical.tabs-line .nav-link, a{color: #005eab;}
+.announceWrapper span.handle, .announceWrapper1 span.handle {background-color: #005eab;}
+.announceWrapper a.title {color: #005eab;}
+
+#menuToggle span {
+
+    background: #01519a !important;
+}
+.open .btn-link:hover {
+    background: #fff !important;
+    color: #01519a !important;
+}
+#menu-bar {
+
+    box-shadow: 0 0 16px 0px #01519a !important;
+}
+
+
+
+#contact {
+    background: #01519a;
+
+}
+#contact button[type="submit"] {
+
+    background: #fff;
+    }
+    #contact button[type="submit"]:hover {
+    background: #66a9e7;
+}
+.container.mk-form {
+    box-shadow: 0px 0px 6px 0 #01519a;
+}
+
+
+.bv_contact_btn{ background: #01519a; }
+ul.user-menu li.sign_out_directory .sign_out{ background: #01519a;  }
+
+button.btn.first{
+ background: #01519a;
+color: #fff;
+}
+#mycoupon input {
+
+    border: 2px solid #01519a !important;
+}
+#mycoupon label {
+
+    color: #01519a  !important;
+}
+button.btn.first{
+    background: #01519a !important;
+}
+p.statusupdate {
+    top: 0;
+    color: #01519a ;
+}
+
+.first:hover {
+  box-shadow: 0 0 40px 40px #19466e   inset;
+  color: #fff;
+}
+.lottery-box{
+     background: url(https://savingssites.com/assets/images/blue-bg.jpg);
+  
+}
+
+.cart_breadcrubs {
+    background: #01519a !important;
+        margin-top: 0 !important;
+}
+.cart_breadcrubs h3 {
+    font-weight: 700;
+    color: #fff;
+}
+.cart_breadcrubs .subtitle {
+    float: right;
+    color: #fff !important;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card .btn-success ,.card a.btn.btn-primary.cart-btn-transform.m-3{
+    color: #fff;
+    background-color: #01519a !important;
+    border-color: #01519a !important;
+}
+
+    .addtocart {
+    color: #fff !important;
+    background: #01519a !important;
+}
+i.fa.fa-shopping-cart{
+    color: #01519a !important;
+}
+span.cus_btn_login {
+    background: #01519a !important;
+
+}
+.card0 input[type="image"]:before {
+    content: "Submit";
+    background: #01519a !important;
+}
+dd.text-right.text-dark.b.ml-3 strike{
+    font-size: 20px;
+    color: #01519a !important;
+}
+
+
+li.sign_out_directory {
+        border: 1px solid #01519a;
+    color: #01519a !important;
+}
+li.sign_out_directory a.text-uppercase {
+    color: #01519a;
+}
+i.fa.fa-edit.text-primary{
+        color: #01519a !important;
+}
+li.sign_out {
+    border: 1px solid #01519a;
+    color: #01519a !important;
+}
+a.sign_out {
+    color: #01519a;
+}
+
+.login_cart_icon li.rd-nav-item.save_hide_banner {
+    border: 1px solid #01519a;
+    color: #01519a !important;
+}
+
+button#themeswitcher {
+    border: 1px solid #01519a;
+    color: #01519a !important;
+}
+#cart_page .btn{
+    background-color: #01519a;
+    border-color: #01519a;
+}
+
+.pop-up-login {
+    border: 1px solid #01519a;
+    color: #01519a !important;
+}
+
+.cus-logout{
+    border: 1px solid #01519a;
+    color: #01519a !important;
+}
+span.inner_tabspan_single.nav-link.active {
+    background: #01519a;
+}
+button.btn.btn-danger.profile_update {
+    background: #01519a;
+}
+.cart_bg{
+    background: transparent linear-gradient(to right,#01519a 0%,#01519a 100%) repeat scroll 0 0;
+}
+
+.cus-bg-update {
+    background: transparent linear-gradient(to right,#01519a 0%,#01519a 100%) repeat scroll 0 0;
+}
+.showgobtn{
+    border: 2px solid #01519a ;
+    background: #01519a;
+}
+.top-search-form {
+    border: 2px solid #01519a;
+}
+.saving_business_reg input, .saving_business_reg select{
+        border: 1px solid #01519a;
+}
+.tab-block .tab-mnu .active,.tab-block .tab-mnu li:hover:not(.active) {
+    background: #01519a !important;
+}
+
+.zonetabheader {
+    background: #01519a !important;
+    color: #fff;
+}
+.bv_read_more{
+  background: #01519a !important;  
+}
+span.h1benefits{
+    color: #01519a !important;
+}
+.carousel-caption .btn-large {
+    background: #01519a;
+    border-color: #01519a;
+}
+.zoneview .cus_menu li,button#themeswitcher {
+    color: #01519a;
+    border: 1px solid #01519a;
+}
+.cus-logout-pub li {
+
+    color: #01519a;
+    border: 1px solid #01519a;
+}
+.login_cart_icon li.rd-nav-item.save_hide_banner{
+      color: #01519a;
+}
+button.gotodeals{
+    background: #01519a !important;
+}
+section.every-profits h1{
+     color: #01519a !important;
+}
+.colortheme {
+    color: #01519a !important;
+}
+.nav-pills a.nav-link {
+    background-color: #01519a !important;
+}

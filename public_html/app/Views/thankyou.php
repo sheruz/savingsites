@@ -1,0 +1,15 @@
+<?=$this->extend("layout/master")?>
+<?=$this->section("pageTitle")?>
+Savings Sites Business Search Thank You 
+<?=$this->endSection()?>
+<?=$this->section("content")?>
+<br/><br/>
+   <div class="jumbotron text-center">
+      <h1 class="display-3">Thank You!</h1>
+      <hr>
+      <p></p>
+      <p class="lead">
+         <a class="btn btn-primary btn-sm" href="<?= base_url();?>/businessSearch/search/<?= $zone_id ?>" role="button">Continue to Deals</a>
+      </p>
+   </div>
+<?=$this->endSection()?>

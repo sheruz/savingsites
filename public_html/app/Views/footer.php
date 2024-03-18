@@ -1,0 +1,1 @@
+<div style='background: #000;color: #fff;text-align: center;padding: 20px 0 2px;line-height: 0;margin-top: 15px;'><p>© 2023 SS Businesses Search . All Rights Reserved.</p></div>

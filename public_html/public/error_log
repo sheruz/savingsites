@@ -1,0 +1,7 @@
+[25-Sep-2023 06:08:20 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in /home/savingssites/public_html/app/Config/Constants.php on line 97
+[25-Sep-2023 06:08:20 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CodeIgniter\ENVIRONMENT" in /home/savingssites/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php:583
+Stack trace:
+#0 /home/savingssites/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php(203): CodeIgniter\CodeIgniter->bootstrapEnvironment()
+#1 /home/savingssites/public_html/spark(71): CodeIgniter\CodeIgniter->initialize()
+#2 {main}
+  thrown in /home/savingssites/public_html/vendor/codeigniter4/framework/system/CodeIgniter.php on line 583

@@ -1,0 +1,307 @@
+.rd-navbar-fixed .rd-nav-item:hover .rd-nav-link, 
+.rd-navbar-fixed .rd-nav-item.focus .rd-nav-link, 
+.rd-navbar-fixed .rd-nav-item.active .rd-nav-link, 
+.rd-navbar-fixed .rd-nav-item.opened .rd-nav-link, 
+header, #product_list .gallery a, 
+.extrapadb.new2.theme-bg, 
+.ui-to-top,.listtype #listbtn.active, 
+.listtype #gridbtn.active, 
+header .header-hidden, 
+.rd-navbar-static.rd-navbar--is-stuck, 
+.rd-navbar-static.rd-navbar--is-clone,
+a.btn-hh-trigger,
+.swiper-button-prev:hover::after, 
+.swiper-button-next:hover::after,
+.block-bg-theme,
+.button-default-outline-2.button-ujarak::before,
+.btn-link:hover,.announceWrapper a.title:hover, .announceWrapper .sortable-dragging a.title, .announceWrapper span.handle:hover + a.title, .themeBtns {
+    background: #5f9900;
+    color:#fff;
+}
+.post-aria-list-social .icon:hover, 
+.tabs-vertical.tabs-line .nav-link.active, 
+.tabs-vertical.tabs-line .nav-link:hover,
+.sub-banner .fa,
+a, a:focus, a:active,
+.benefits.tabs-horizontal.tabs-corporate .nav-link:hover {
+    color: #5f9900;
+}
+.benefits.tabs-horizontal.tabs-corporate .nav-link.active, .benefits.tabs-horizontal.tabs-corporate .nav-link.active:hover {
+    color: #ffffff;background: #5f9900;
+}
+.mission, .mission:after, header .header-hidden {
+    border-color: #5f9900;
+}
+.text-primary, .themeBtns a.text-primary, .themeBtns a.text-primary:focus,.themeBtns a.text-primary:hover{
+    color: #5f9900 !important;
+}
+.btn-primary, .btn-primary:active, 
+.button-default-outline-2:hover, 
+.button-default-outline-2:active,
+.btn-primary:focus {
+    color: #ffffff;
+    background: #5f9900;
+    border-color: #5f9900;
+}
+.h1benefits{
+    color: #5f9900;
+}
+.boxex {
+    border: 3px solid #5f9900;
+}
+/*Add This*/
+.social-animated i.icon::after {
+    display: inline-block;
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: inherit;
+    background: #5f9900;
+    transform: scale(0);
+    transform-origin: 50% 0;
+    transition: all .3s ease;
+    z-index: -1;
+}
+.top-header .quicklinks-social.post-aria-list-social .icon:hover {
+    color: #fff;
+    background: #5f9900;
+}
+.top-header .quicklinks-social.post-aria-list-social .icon {
+    color: #5f9900;
+}
+.social-animated li a i.icon{
+    color: #5f9900;
+}
+.social-animated li a i.icon:hover {
+    color: #fff;
+    background: #5f9900;
+}
+.top-header .post-aria-list-social .icon:after {
+    background: #5f9900;
+}
+a.contact-us {
+  background: #5f9900;
+  border: 1px solid #5f9900;
+}
+a.contact-us:hover
+{
+  background: #fff;
+  border: 1px solid #5f9900;
+  color: #5f9900;
+}
+.tabs-vertical.tabs-line .nav-link.active, 
+.tabs-vertical.tabs-line .nav-link:hover{
+    color: #ffffff;
+    background: #5f9900;
+}
+.tabs-vertical.tabs-line .nav-link, a{
+    color: #5f9900;
+}
+.announceWrapper span.handle, .announceWrapper1 span.handle {
+    background-color: #5f9900;
+}
+.announceWrapper a.title {color: #5f9900;}
+#menuToggle span {
+    background: #5f9900 !important;
+}
+#menu-bar {
+    box-shadow: 0 0 16px 0px #5f9900 !important;
+}
+
+/* form design */
+
+#contact {
+    background: #5f9900;
+
+}
+#contact button[type="submit"] {
+
+    background: #fff;
+    }
+    #contact button[type="submit"]:hover {
+    background: #e2f1cb;
+}
+.container.mk-form {
+    box-shadow: 0px 0px 6px 0 #5f9900;
+}
+
+
+.bv_contact_btn{ background: #5f9900; }
+ul.user-menu li.sign_out_directory .sign_out{ background: #5f9900;  }
+
+button.btn.first{
+ background: #5f9900;
+color: #fff;
+}
+#mycoupon input {
+
+    border: 2px solid #5f9900 !important;
+}
+#mycoupon label {
+
+    color: #5f9900  !important;
+}
+button.btn.first{
+    background: #5f9900 !important;
+}
+p.statusupdate {
+    top: 0;
+    color: #5f9900;
+}
+
+.first:hover {
+  box-shadow: 0 0 40px 40px #5f9900   inset;
+  color: #fff;
+}
+.lottery-box{
+     background: url(https://savingssites.com/assets/images/green-bg.jpg);
+  
+}
+.cart_breadcrubs {
+    background: #5f9900 !important;
+        margin-top: 0 !important;
+}
+.cart_breadcrubs h3 {
+    font-weight: 700;
+    color: #fff;
+}
+.cart_breadcrubs .subtitle {
+    float: right;
+    color: #fff !important;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card .btn-success ,.card a.btn.btn-primary.cart-btn-transform.m-3{
+    color: #fff;
+    background-color: #5f9900 !important;
+    border-color: #5f9900 !important;
+}
+
+    .addtocart {
+    color: #fff !important;
+    background: #5f9900 !important;
+}
+i.fa.fa-shopping-cart{
+    color: #5f9900 !important;
+}
+span.cus_btn_login {
+    background: #5f9900 !important;
+
+}
+.card0 input[type="image"]:before {
+    content: "Submit";
+    background: #5f9900 !important;
+}
+dd.text-right.text-dark.b.ml-3 strike{
+    font-size: 20px;
+    color: #5f9900 !important;
+}
+
+li.sign_out_directory {
+        border: 1px solid #5f9900;
+    color: #5f9900 !important;
+}
+li.sign_out_directory a.text-uppercase {
+    color: #5f9900;
+}
+i.fa.fa-edit.text-primary{
+        color: #5f9900 !important;
+}
+li.sign_out {
+    border: 1px solid #5f9900;
+    color: #5f9900 !important;
+}
+a.sign_out {
+    color: #5f9900;
+}
+
+.login_cart_icon li.rd-nav-item.save_hide_banner {
+    border: 1px solid #5f9900;
+    color: #5f9900 !important;
+}
+button#themeswitcher {
+    border: 1px solid #5f9900;
+    color: #5f9900 !important;
+}
+#cart_page .btn{
+    background-color: #5f9900;
+    border-color: #5f9900;
+}
+
+.pop-up-login {
+    border: 1px solid #5f9900;
+    color: #5f9900 !important;
+}
+.cus-logout{
+    border: 1px solid #5f9900;
+    color: #5f9900 !important;
+}
+span.inner_tabspan_single.nav-link.active {
+    background: #5f9900;
+}
+button.btn.btn-danger.profile_update {
+    background: #5f9900;
+}
+
+.cart_bg{
+    background: transparent linear-gradient(to right,#5f9900 0%,#5f9900 100%) repeat scroll 0 0;
+}
+
+.cus-bg-update {
+    background: transparent linear-gradient(to right,#5f9900 0%,#5f9900 100%) repeat scroll 0 0;
+}
+.showgobtn{
+    border: 2px solid #5f9900 ;
+    background: #5f9900;
+}
+.top-search-form {
+    border: 2px solid #5f9900;
+}
+.saving_business_reg input, .saving_business_reg select{
+        border: 1px solid #5f9900;
+}
+.tab-block .tab-mnu .active,.tab-block .tab-mnu li:hover:not(.active) {
+    background: #5f9900 !important;
+}
+
+.zonetabheader {
+    background: #5f9900 !important;
+    color: #fff;
+}
+.bv_read_more{
+  background: #5f9900 !important;  
+}
+span.h1benefits{
+    color: #5f9900 !important;
+}
+.carousel-caption .btn-large {
+    background: #5f9900;
+    border-color: #5f9900;
+}
+.zoneview .cus_menu li ,button#themeswitcher{
+    color: #5f9900;
+    border: 1px solid #5f9900;
+}
+.cus-logout-pub li {
+
+    color: #5f9900;
+    border: 1px solid #5f9900;
+}
+.login_cart_icon li.rd-nav-item.save_hide_banner{
+      color: #5f9900;
+}
+button.gotodeals{
+    background: #5f9900 !important;
+}
+section.every-profits h1{
+     color: #5f9900 !important;
+}
+.colortheme {
+    color: #5f9900 !important;
+}
+.nav-pills a.nav-link {
+    background-color: #5f9900 !important;
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Windy City",
+    "short_name": "Windy City",
+    "description": "You Save & Your Favorite Nonprofit Also Benefits!",
+    "background_color": "#5f9900",
+    "theme_color": "#5f9900",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/assets/SavingsUpload/zone_logo/598/1690018492Chi_Town_Deals.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/SavingsUpload/zone_logo/598/1690018492Chi_Town_Deals.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+        ]
+}

@@ -1,0 +1,362 @@
+	
+
+# Turning on the rewrite engine is necessary for the following rules and features.
+# FollowSymLinks must be enabled for this to work.
+<IfModule mod_rewrite.c>
+	Options +FollowSymlinks
+	RewriteEngine On
+
+	# If you installed CodeIgniter in a subfolder, you will need to
+	# change the following line to match the subfolder you need.
+	# http://httpd.apache.org/docs/current/mod/mod_rewrite.html#rewritebase
+	# RewriteBase /
+
+	# Redirect Trailing Slashes...
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_URI} (.+)/$
+	RewriteRule ^ %1 [L,R=301]
+
+	# Rewrite "www.example.com -> example.com"
+	RewriteCond %{HTTPS} !=on
+	RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+	RewriteRule ^ http://%1%{REQUEST_URI} [R=301,L]
+
+	# Checks to see if the user is attempting to access a valid file,
+	# such as an image or css document, if this isn't true it sends the
+	# request to the front controller, index.php
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule ^([\s\S]*)$ index.php/$1 [L,NC,QSA]
+
+	# Ensure Authorization header is passed along
+	RewriteCond %{HTTP:Authorization} .
+	RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+	# redirect to sub Domain Start
+		Redirect 301 /businessSearch/search/158 http://chattanooga-deals.savingssites.com/
+		Redirect 301 /deals/158 http://chattanooga-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Chattanooga http://chattanooga-deals.savingssites.com/
+		Redirect 301 /deals/Chattanooga http://chattanooga-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/571 http://lakeminnetonka-deals.savingssites.com/
+		Redirect 301 /deals/571 http://lakeminnetonka-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Lakeminnetonkasavings http://lakeminnetonka-deals.savingssites.com/
+		Redirect 301 /deals/Lakeminnetonkasavings http://lakeminnetonka-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/583 http://buffalo-deals.savingssites.com/
+		Redirect 301 /deals/583 http://buffalo-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Buffalo-Savings-Sites http://buffalo-deals.savingssites.com/
+		Redirect 301 /deals/Buffalo-Savings-Sites http://buffalo-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/597 http://northjersey-deals.savingssites.com/
+		Redirect 301 /deals/597 http://northjersey-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/NorthJersey http://northjersey-deals.savingssites.com/
+		Redirect 301 /deals/NorthJersey http://northjersey-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/598 http://windycity-deals.savingssites.com/
+		Redirect 301 /deals/598 http://windycity-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Windy-City http://windycity-deals.savingssites.com/
+		Redirect 301 /deals/Windy-City http://windycity-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/599 http://nashville-deals.savingssites.com/
+		Redirect 301 /deals/599 http://nashville-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Nashville http://nashville-deals.savingssites.com/
+		Redirect 301 /deals/Nashville http://nashville-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/627 http://scituate-deals.savingssites.com/
+		Redirect 301 /deals/627 http://scituate-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/scituate http://scituate-deals.savingssites.com/
+		Redirect 301 /deals/scituate http://scituate-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/639 http://fresno-deals.savingssites.com/
+		Redirect 301 /deals/639 http://fresno-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Fresno-Deals http://fresno-deals.savingssites.com/
+		Redirect 301 /deals/Fresno-Deals http://fresno-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/644 http://davenport-deals.savingssites.com/
+		Redirect 301 /deals/644 http://davenport-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Davenport-Deals http://davenport-deals.savingssites.com/
+		Redirect 301 /deals/Davenport-Deals http://davenport-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/645 http://cedarrapids-deals.savingssites.com/
+		Redirect 301 /deals/645 http://cedarrapids-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Cedar-Rapids-Deals http://cedarrapids-deals.savingssites.com/
+		Redirect 301 /deals/Cedar-Rapids-Deals http://cedarrapids-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/650 http://savingssites-deals.savingssites.com/
+		Redirect 301 /deals/650 http://savingssites-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/SavingsSites http://savingssites-deals.savingssites.com/
+		Redirect 301 /deals/SavingsSites http://savingssites-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/663 http://winchester-deals.savingssites.com/
+		Redirect 301 /deals/663 http://winchester-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Winchester http://winchester-deals.savingssites.com/
+		Redirect 301 /deals/Winchester http://winchester-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/665 http://stlouis-deals.savingssites.com/
+		Redirect 301 /deals/665 http://stlouis-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/StLouis http://stlouis-deals.savingssites.com/
+		Redirect 301 /deals/StLouis http://stlouis-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/666 http://tucson-deals.savingssites.com/
+		Redirect 301 /deals/666 http://tucson-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Tucson http://tucson-deals.savingssites.com/
+		Redirect 301 /deals/Tucson http://tucson-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/667 http://houston-deals.savingssites.com/
+		Redirect 301 /deals/667 http://houston-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Houston http://houston-deals.savingssites.com/
+		Redirect 301 /deals/Houston http://houston-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/669 http://grossepointe-deals.savingssites.com/
+		Redirect 301 /deals/669 http://grossepointe-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/GrossePointe http://grossepointe-deals.savingssites.com/
+		Redirect 301 /deals/GrossePointe http://grossepointe-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/670 http://florida-deals.savingssites.com/
+		Redirect 301 /deals/670 http://florida-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Florida http://florida-deals.savingssites.com/
+		Redirect 301 /deals/Florida http://florida-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/672 http://naples-deals.savingssites.com/
+		Redirect 301 /deals/672 http://naples-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Naples http://naples-deals.savingssites.com/
+		Redirect 301 /deals/Naples http://naples-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/674 http://orange-deals.savingssites.com/
+		Redirect 301 /deals/674 http://orange-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/OrangeDeals http://orange-deals.savingssites.com/
+		Redirect 301 /deals/OrangeDeals http://orange-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/676 http://davie-deals.savingssites.com/
+		Redirect 301 /deals/676 http://davie-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Davie http://davie-deals.savingssites.com/
+		Redirect 301 /deals/Davie http://davie-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/677 http://fairfieldco-deals.savingssites.com/
+		Redirect 301 /deals/677 http://fairfieldco-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/FairfieldCounty http://fairfieldco-deals.savingssites.com/
+		Redirect 301 /deals/FairfieldCounty http://fairfieldco-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/678 http://camco-deals.savingssites.com/
+		Redirect 301 /deals/678 http://camco-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/camco_deals http://camco-deals.savingssites.com/
+		Redirect 301 /deals/camco_deals http://camco-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/679 http://southjersey-deals.savingssites.com/
+		Redirect 301 /deals/679 http://southjersey-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/southjersey-deals http://southjersey-deals.savingssites.com/
+		Redirect 301 /deals/southjersey_deals http://southjersey-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/656 http://atlanta-deals.savingssites.com/
+		Redirect 301 /deals/656 http://atlanta-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Atlanta-Savings-Sites http://atlanta-deals.savingssites.com/
+		Redirect 301 /deals/Atlanta-Savings-Sites http://atlanta-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/680 http://jacksonville-deals.savingssites.com/
+		Redirect 301 /deals/680 http://jacksonville-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Jacksonville http://jacksonville-deals.savingssites.com/
+		Redirect 301 /deals/Jacksonville http://jacksonville-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/681 http://omaha-deals.savingssites.com/
+		Redirect 301 /deals/681 http://omaha-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Omaha http://omaha-deals.savingssites.com/
+		Redirect 301 /deals/Omaha http://omaha-deals.savingssites.com/	
+
+		Redirect 301 /businessSearch/search/700 http://oregon-deals.savingssites.com/
+		Redirect 301 /deals/700 http://oregon-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/OregonDeals http://oregon-deals.savingssites.com/
+		Redirect 301 /deals/OregonDeals http://oregon-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/701 http://tampa-deals.savingssites.com/
+		Redirect 301 /deals/701 http://tampa-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Tampa http://tampa-deals.savingssites.com/
+		Redirect 301 /deals/Tampa http://tampa-deals.savingssites.com/	
+
+		Redirect 301 /businessSearch/search/707 https://middlesexco-deals.savingssites.com/
+		Redirect 301 /deals/707 https://middlesexco-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/MiddlesexCo https://middlesexco-deals.savingssites.com/
+		Redirect 301 /deals/MiddlesexCo https://middlesexco-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/675 https://utah-deals.savingssites.com/
+		Redirect 301 /deals/675 https://utah-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/UTDeals https://utah-deals.savingssites.com/
+		Redirect 301 /deals/UTDeals https://utah-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/597 https://northjersey-deals.savingssites.com/
+		Redirect 301 /deals/597 https://northjersey-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/NorthJerseyDeals https://northjersey-deals.savingssites.com/
+		Redirect 301 /deals/NorthJerseyDeals https://northjersey-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/704 https://centraljersey-deals.savingssites.com/
+		Redirect 301 /deals/704 https://centraljersey-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/CentralJerseyDeals https://centraljersey-deals.savingssites.com/
+		Redirect 301 /deals/CentralJerseyDeals https://centraljersey-deals.savingssites.com/
+
+		Redirect 301 /businessSearch/search/708 https://philly-deals.savingssites.com/
+		Redirect 301 /deals/708 https://philly-deals.savingssites.com/
+		Redirect 301 /businessSearch/search/Philly https://philly-deals.savingssites.com/
+		Redirect 301 /deals/Philly https://philly-deals.savingssites.com/
+	# redirect to sub Domain End
+
+	# redirect to sub Domain Start
+		Redirect 301 /zone/158 http://chattanooga.savingssites.com/
+		Redirect 301 /zone/Chattanooga http://chattanooga.savingssites.com/
+		
+		Redirect 301 /zone/571 http://lakeminnetonka.savingssites.com/
+		Redirect 301 /zone/Lakeminnetonkasavings http://lakeminnetonka.savingssites.com/
+		
+		Redirect 301 /zone/583 http://buffalo.savingssites.com/
+		Redirect 301 /zone/Buffalo-Savings-Sites http://buffalo.savingssites.com/
+		
+		Redirect 301 /zone/597 http://northjersey.savingssites.com/
+		Redirect 301 /zone/NorthJersey http://northjersey.savingssites.com/
+		
+		Redirect 301 /zone/598 http://windycity.savingssites.com/
+		Redirect 301 /zone/Windy-City http://windycity.savingssites.com/
+		
+		Redirect 301 /zone/599 http://nashville.savingssites.com/
+		Redirect 301 /zone/Nashville http://nashville.savingssites.com/
+		
+		Redirect 301 /zone/627 http://scituate.savingssites.com/
+		Redirect 301 /zone/scituate http://scituate.savingssites.com/
+		
+		Redirect 301 /zone/639 http://fresno.savingssites.com/
+		Redirect 301 /zone/Fresno http://fresno.savingssites.com/
+		
+		Redirect 301 /zone/644 http://davenport.savingssites.com/
+		Redirect 301 /zone/Davenport http://davenport.savingssites.com/
+		
+		Redirect 301 /zone/645 http://cedarrapids.savingssites.com/
+		Redirect 301 /zone/Cedar-Rapids http://cedarrapids.savingssites.com/
+		
+		Redirect 301 /zone/650 http://savingssites.savingssites.com/
+		Redirect 301 /zone/SavingsSites http://savingssites.savingssites.com/
+		
+		Redirect 301 /zone/663 http://winchester.savingssites.com/
+		Redirect 301 /zone/Winchester http://winchester.savingssites.com/
+		
+		Redirect 301 /zone/665 http://stlouis.savingssites.com/
+		Redirect 301 /zone/StLouis http://stlouis.savingssites.com/
+		
+		Redirect 301 /zone/666 http://tucson.savingssites.com/
+		Redirect 301 /zone/Tucson http://tucson.savingssites.com/
+		
+		Redirect 301 /zone/667 http://houston.savingssites.com/
+		Redirect 301 /zone/Houston http://houston.savingssites.com/
+		
+		Redirect 301 /zone/669 http://grossepointe.savingssites.com/
+		Redirect 301 /zone/GrossePointe http://grossepointe.savingssites.com/
+		
+		Redirect 301 /zone/670 http://florida.savingssites.com/
+		Redirect 301 /zone/Florida http://florida.savingssites.com/
+		
+		Redirect 301 /zone/672 http://naples.savingssites.com/
+		Redirect 301 /zone/Naples http://naples.savingssites.com/
+		
+		Redirect 301 /zone/674 http://orange.savingssites.com/
+		Redirect 301 /zone/OrangeDeals http://orange.savingssites.com/
+		
+		Redirect 301 /zone/676 http://davie.savingssites.com/
+		Redirect 301 /zone/Davie http://davie.savingssites.com/
+		
+		Redirect 301 /zone/677 http://fairfieldco.savingssites.com/
+		Redirect 301 /zone/FairfieldCounty http://fairfieldco.savingssites.com/
+		
+		Redirect 301 /zone/678 http://camco.savingssites.com/
+		Redirect 301 /zone/camco http://camco.savingssites.com/
+		
+		Redirect 301 /zone/213 http://zone-test.nexusfleck.savingssites.com/
+		Redirect 301 /zone/Zone-Test http://zone-test.nexusfleck.savingssites.com/
+
+		Redirect 301 /zone/656 http://atlanta.savingssites.com/
+		Redirect 301 /zone/Atlanta-Savings-Sites http://atlanta.savingssites.com/
+
+		Redirect 301 /zone/680 http://jacksonville.savingssites.com/
+		Redirect 301 /zone/Jacksonville http://jacksonville.savingssites.com/
+
+		Redirect 301 /zone/681 http://omaha.savingssites.com/
+		Redirect 301 /zone/Omaha http://omaha.savingssites.com/
+
+		Redirect 301 /zone/700 http://oregon.savingssites.com/
+		Redirect 301 /zone/OregonDeals http://oregon.savingssites.com/
+
+		Redirect 301 /zone/704 http://monmouthco.savingssites.com/
+		Redirect 301 /zone/MonmouthCo http://monmouthco.savingssites.com/
+
+		Redirect 301 /zone/701 http://tampa.savingssites.com/
+		Redirect 301 /zone/Tampa http://tampa.savingssites.com/
+
+		Redirect 301 /zone/707 https://middlesexco.savingssites.com/
+		Redirect 301 /zone/MiddlesexCo https://middlesexco.savingssites.com/
+
+		Redirect 301 /zone/675 https://utah.savingssites.com/
+		Redirect 301 /zone/UTDeals https://utah.savingssites.com/
+
+		Redirect 301 /zone/597 https://southjersey.savingssites.com/
+		Redirect 301 /zone/NorthJersey https://southjersey.savingssites.com/
+
+		Redirect 301 /zone/704 https://centraljersey.savingssites.com/
+		Redirect 301 /zone/CentralJersey https://centraljersey.savingssites.com/
+
+		Redirect 301 /zone/679 https://southjersey.savingssites.com/
+		Redirect 301 /zone/SouthJersey https://southjersey.savingssites.com/
+
+		Redirect 301 /zone/708 https://philly.savingssites.com/
+		Redirect 301 /zone/Philly https://philly.savingssites.com/
+		
+
+	# redirect to sub Domain End
+
+</IfModule>
+
+
+
+<IfModule !mod_rewrite.c>
+	# If we don't have mod_rewrite installed, all 404's
+	# can be sent to index.php, and everything works as normal.
+	ErrorDocument 404 index.php
+</IfModule>
+
+
+
+# Disable server signature start
+	ServerSignature Off
+# Disable server signature end
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+   php_flag display_errors Off
+   php_value max_execution_time 4000
+   php_value max_input_time 90
+   php_value max_input_vars 100000
+   php_value memory_limit -1
+   php_value post_max_size 80M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php80"
+   php_value upload_max_filesize 200M
+   php_flag zlib.output_compression Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_value max_execution_time 4000
+   php_value max_input_time 90
+   php_value max_input_vars 100000
+   php_value memory_limit -1
+   php_value post_max_size 80M
+   php_value session.gc_maxlifetime 1440
+   php_value session.save_path "/var/cpanel/php/sessions/ea-php80"
+   php_value upload_max_filesize 200M
+   php_flag zlib.output_compression Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php81” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php81 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
